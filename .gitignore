@@ -2,3 +2,53 @@ __pycache__
 dist
 *.egg-info
 build
+
+/.venv
+*.gguf
+
+# Training artifacts
+models/checkpoints/
+models/lora/
+logs/
+*.log
+*.pt
+*.bin
+*.gguf
+
+# Dataset
+models/dolly_data/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.env
+.venv
+env/
+venv/
+ENV/
+*.so
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Temp files
+*.tmp
+*.temp
+*.bak
+
+# Large files
+*.gguf
+*.bin
+*.pt
+*.pth
+*.safetensors
+
+# Logs and databases
+*.log
+*.sqlite
